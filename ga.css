@@ -1,0 +1,90 @@
+body{
+
+background-image: url('cld.jpg');
+background-repeat: no-repeat;
+background-position: left-bottom;
+background-size: 100%;
+
+}
+
+h1{
+
+
+	width: 100%;
+	color: white;
+	font-family: lato;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 2px grey;
+}
+h2{
+	color: white;
+	font-family: lato;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 80px;
+	}
+
+	table{
+		font-family: lato;
+		border-collapse: collapse;
+		width: 60%;
+		text-align: center;
+		margin-top: 80px;
+}
+th{
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+	padding: 40px;
+	background-color: #6BBE30;
+	padding: 8px;
+}
+td{
+font-size: 15px;
+text-align: left;
+padding:8px;
+}
+
+tr:nth-child(odd){
+	background-color: #6BBE30;
+}
+tr:nth-child(even){
+	background-color: #DDEAF0;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #6bbe30;
+	color: white;
+	text-align: center;
+}
+ul{
+	list-style-type : none;
+	margin: 0;
+	padding:  0;
+	overflow: hidden;
+	text-align: center;
+}
+li{
+	float: left; 
+	font-size: 20px;
+}
+li a{
+display: block;
+color: white;
+ text-align: center;
+ padding: 10px 170px; 
+ text-decoration: none;
+}
+li a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
