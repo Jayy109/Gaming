@@ -1,0 +1,60 @@
+body{
+	background-image: url('be.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: auto;
+	margin: 0;
+}
+
+
+.navbar{
+	font-family: lato;
+	width: 100%;
+	background-color:;
+	overflow: auto; 
+}
+.navbar a{
+
+
+	font-family: lato;
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	width: 31%;
+	text-align: center;
+}
+.navbar a:hover{
+
+	background-color: white;
+	color: black; 
+}
+h1{
+	color: black;
+	font-size: 50px;
+	padding-top: 2%;
+	padding-left: 40%;
+	font-family: lato; 
+}
+h2{
+	color: black;
+	font-size: 30px;
+	font-family: lato;
+	padding-left: 45%;
+}
+h3{
+	color: black;
+	font-size: 20px;
+	font-family: lato;
+	padding-left: 46%;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}

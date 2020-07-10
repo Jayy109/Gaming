@@ -1,0 +1,53 @@
+body{
+	background-image: url('ni.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.sidenav a:hover{
+
+	background-color: white;
+	color: black; 
+}
+.sidenav{
+	font-family: lato;
+	width: 100%;
+	background-color:;
+	overflow: auto; 
+}
+.sidenav a{
+
+
+	font-family: lato;
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	width: 31%;
+	text-align: center;
+}
+
+h1{
+	color: black;
+	font-size: 50px;
+	padding-top: 2%;
+	padding-left: 40%;
+	font-family: lato; 
+}
+h2{
+	color: black;
+	font-size: 30px;
+	font-family: lato;
+	padding-left: 45%;
+}
